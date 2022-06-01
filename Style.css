@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    width: 300px;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.image-digital {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.name-product {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    transition: 0.3s;
+}
+
+.name-product:hover {
+    color: hsl(178, 100%, 50%);
+
+}
+
+.info {
+    font-weight: bold;
+    color: hsl(215, 51%, 70%);
+}
+
+.part-price-time {
+    margin: 20px 0;
+    position: relative;
+}
+
+.part-right {
+    position: absolute;
+    right: 0;
+}
+
+.clock {
+    margin-top: 2px;
+}
+
+.time {
+    display: inline;
+    font-weight: bold;
+    color: hsl(215, 51%, 70%);
+}
+
+.part-left {}
+
+.ethereum {
+    margin-right: 5px;
+}
+
+.price {
+    display: inline;
+    font-weight: bold;
+    color: hsl(178, 100%, 50%);
+}
+
+hr {}
+
+.contact {
+    margin: 10px auto;
+}
+
+.contact-image {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border: 1.5px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+
+.contact-name {
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    transition: 0.3s;
+}
+
+.contact-name:hover:not(span) {
+    color: hsl(178, 100%, 50%)
+}
+
+.contact-name span {
+    color: hsl(215, 51%, 70%);
+}
