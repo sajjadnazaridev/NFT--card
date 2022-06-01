@@ -23,8 +23,39 @@ body {
 
 .image-digital {
     width: 100%;
-    height: 50%;
+    height: 250px;
     border-radius: 10px;
+    background-image: url(images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.image-digital:hover {
+    background-color: hsla(178, 100%, 50%, 0.5);
+    background-blend-mode: overlay;
+}
+
+.icon-eye-fo {
+    width: 260px;
+    height: 254px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.icon-eye-fo:hover {
+    opacity: 100%;
+}
+
+.icon-eye {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px auto;
+
+    transition: 0.3s;
 }
 
 .name-product {
